@@ -1,0 +1,149 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    gap: 8.12vw;
+    justify-content: flex-start;
+}
+
+.section {
+    width: 17.27vw;
+    display: block;
+}
+
+.section:hover {
+    cursor: pointer;
+}
+
+.ftitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.26vh;
+}
+
+.ftitle2 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 1.26vh;
+}
+
+.fcontent1 {
+    color: #585858;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.fcontent2 {
+    font-size: 0.8rem;
+}
+
+.fImg {
+    width:15.62vw;
+    height:15.62vh;
+    margin-bottom:2%;
+    background-color: white;
+}
+
+.panel {
+    margin: 0 auto;
+    position: absolute;
+    top: 72px;
+    width: 78%;
+    height: 100vh;
+    margin-top: 11.32vh;
+    z-index: 99;
+    margin-left: 10%;
+}
+
+.fpanel {
+    font-family: 'Noto Sans KR', sans-serif;
+    justify-content: space-evenly;
+    display: flex;
+    /* flex-direction: column; */
+    position: relative;
+    width: 70vw;
+    gap: 6vw;
+    height: 75vh;
+    z-index: 99;
+    margin-top: 20vh;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fpanel2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 65vw;
+    height: 90.32vh;
+    z-index: 99;
+    margin-top: 4.68vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow {
+    z-index: 99;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    position: absolute;
+    left: -2vw;
+    align-items: center;
+}
+
+.text-arrow:hover {
+    cursor: pointer;
+}
+
+.img-arrow {
+    width: 58px;
+    height: 52px;
+    cursor: pointer;
+}
+
+
+.text-arrow {
+    color: #575757;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.grade {
+    position:fixed;
+    top : 18%;
+    right:4%;
+    display : flex;
+}
+
+.grade-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    position:relative;
+    width:80%;
+    height:100vh;
+}
+
+/* 움직이는 모션 */
+.arrow {text-align: center; margin-top: 20px;}
+.img-arrow, .text-arrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}
+        
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+
+@media screen and (max-width:768px) {
+    
+}
