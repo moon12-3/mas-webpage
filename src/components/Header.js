@@ -1,7 +1,8 @@
 import dummy from "../db/data.json";
+import { Link } from 'react-router-dom';
 
 function Header({type}) {
-    const grade = "1ST"
+    const grade = "1ST";
     let t1 = "";
     let t2 = "";
     if(type=="2") {
@@ -29,17 +30,7 @@ function Header({type}) {
                       <li className ="nav-info">2021 - 2021</li>
                       <li className ="nav-info">MAS</li>
                   </ul>
-                  <div className="grade">
-                    <ul className="grade-list">
-                        {dummy.grades.map(grade => (
-                            <li key={grade.id}><p>
-                                2021 {grade.grade}
-                                </p></li>
-                        ))
- 
-                        }
-                    </ul>
-            </div>
+                  
           </nav>
       </header>
     )

@@ -73,7 +73,7 @@ html::-webkit-scrollbar {
 .panel2 {
     margin: 0 auto;
     display: flex;
-    width: 70vw;
+    width: 65vw;
     justify-content: space-between;
     margin-top: 20vh;
 }
@@ -94,7 +94,7 @@ html::-webkit-scrollbar {
 
 .fpanel3 {
     font-family: 'Noto Sans KR', sans-serif;
-    width: 23.3vw;
+    width: 20.3vw;
 }
 
 .fpanel2 {
