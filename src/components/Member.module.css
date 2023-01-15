@@ -1,3 +1,14 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    margin : 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+    border-right: thin solid #ffffff;
+}
+
 html::-webkit-scrollbar {
     display: none;
 }
@@ -59,20 +70,31 @@ html::-webkit-scrollbar {
     margin-left: 10%;
 }
 
+.panel2 {
+    margin: 0 auto;
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    margin-top: 20vh;
+}
+
 .fpanel {
     font-family: 'Noto Sans KR', sans-serif;
     justify-content: space-evenly;
     display: flex;
     /* flex-direction: column; */
     position: relative;
-    width: 70vw;
+    width: 43.6vw;
     gap: 6vw;
     height: 75vh;
     z-index: 99;
-    margin-top: 20vh;
+    
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.fpanel3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 23.3vw;
 }
 
 .fpanel2 {

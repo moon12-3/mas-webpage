@@ -9,37 +9,37 @@
                     "id":"1", 
                     "name":"김유진",
                     "intro":"자기소개",
-                    "role":"SOFTWARE"
+                    "role":"11기 SOFTWARE"
                 },
                 {
                     "id":"1", 
                     "name":"김유나",
                     "intro":"자기소개",
-                    "role":"SOFTWARE"
+                    "role":"11기 SOFTWARE"
                 },
                 {
                     "id":"1", 
                     "name":"윤주희",
                     "intro":"자기소개",
-                    "role":"WEBSOLUTION"
+                    "role":"11기 WEBSOLUTION"
                 },
                 {
                     "id":"1", 
                     "name":"김민주",
                     "intro":"자기소개",
-                    "role":"WEBSOLUTION"
+                    "role":"11기 WEBSOLUTION"
                 },
                 {
                     "id":"1", 
                     "name":"유혜은",
                     "intro":"자기소개",
-                    "role":"DESIGN"
+                    "role":"11기 DESIGN"
                 },
                 {
                     "id":"1", 
                     "name":"오민정",
                     "intro":"자기소개",
-                    "role":"DESIGN"
+                    "role":"11기 DESIGN"
                 },
                 {
                     "id":"2", 
@@ -76,6 +76,43 @@
                     "name":"임수민",
                     "intro":"자기소개",
                     "role":"12기 WEBSOLUTION"
+                },
+                {
+                    "id":"3", 
+                    "name":"노현지",
+                    "intro":"안녕하세요. MAS 2기 노현지입니㉰. 지나간 일에 후회하지 않도록 항상 최선을 다하는 부원이 되겠습니다.",
+                    "role":"13기 DESIGN"
+                },
+                {
+                    "id":"3", 
+                    "name":"이현진",
+                    "intro":"저는 MAS 2기 부원 이현진입니다. 제가 프로그래밍을 함으로써 부족함이 있더라도 언제나 그 부족함을 통해 저 자신을 발전시키도록 노력하겠습니다.",
+                    "role":"13기 SOFTWARE"
+                },
+                {
+                    "id":"3", 
+                    "name":"홍효빈",
+                    "intro":"안녕하세요 마스 2기 부원인 홍효빈입나다. 성실하고 끊임없이 발전하도록 노력하겠습니다!",
+                    "role":"13기 WEBSOLUTION"
+                },
+                {
+                    "id":"3", 
+                    "name":"지수연",
+                    "intro":"안녕하세요. 1학년 13기 뉴미디어 디자인과 지수연입니다. 다소 서툴고 미숙하지만 열심히 임할 수 있도록 노력하겠습니다!",
+                    "role":"13기 DESIGN"
+                },
+                {
+                    "id":"3", 
+                    "name":"나소정",
+                    "intro":"안녕하세요. 마스 2기 부원 나소정입니다. 꾸준한 열정을 바탕으로, 늘 창의적이고 색다른 생각을 펼치겠습니다!",
+                    "role":"13기 SOFTWARE"
+                },
+                {
+                    "id":"3", 
+                    "name":"나소정",
+                    "intro":"안녕하세요 마스 2기 부원인 유희주입니다. 열정을 가지며 활동에 임하고 계속 성장해 나아가겠습니다!",
+                    "role":"13기 SOFTWARE"
                 }
+                
     ]
 }

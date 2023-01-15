@@ -36,7 +36,7 @@ function Header({type}) {
                                 2021 {grade.grade}
                                 </p></li>
                         ))
-
+ 
                         }
                     </ul>
             </div>

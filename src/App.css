@@ -7,7 +7,8 @@
 
 html, body {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
     margin : 0;
     padding: 0;
     overflow-x: hidden;
@@ -21,6 +22,10 @@ html::-webkit-scrollbar {
 
 video::-webkit-scrollbar {
     display: none;
+}
+
+body.no-scroll {
+    overflow: hidden !important
 }
 
 span {
