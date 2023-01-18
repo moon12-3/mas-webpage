@@ -9,7 +9,7 @@ html, body {
     border-right: thin solid #ffffff;
 }
 
-html::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
 
