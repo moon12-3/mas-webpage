@@ -5,18 +5,12 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 function Project() {
     //dummy.grades
     return (
-        <BrowserRouter>
-            
-            <Routes>
-                <Route path="/" element={<Footer2 />}/>
-            </Routes>
-            
+        <>
             <div id = "panel" className={styles.fpanel2}>
                 <Footer2></Footer2>
                 <Footer2></Footer2>
             </div>
-            
-        </BrowserRouter>
+        </>
     )
 }
 

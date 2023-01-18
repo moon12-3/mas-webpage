@@ -21,9 +21,9 @@ function Header({type}) {
                 <span className = "t2">{t2}</span>
                 </div>
               <ul className ="nav-list">
-                  {/* <li className ="nav-item"><Link to='/main'></Link></li> */}
-                  <li className ="nav-item"><Link to='/member'></Link></li>
-                  <li className ="nav-item"><Link to='/project'></Link></li>
+                  <li className ="nav-item"><Link to='/'>ABOUT</Link></li>
+                  <li className ="nav-item"><Link to='/member'>MEMBER</Link></li>
+                  <li className ="nav-item"><Link to='/project'>PROJECT</Link></li>
 
               </ul>
   

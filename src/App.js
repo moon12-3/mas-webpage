@@ -3,23 +3,20 @@ import Main from './components/Main';
 import Header from './components/Header';
 import Member from './components/Member';
 import Project from './components/Project';
+import Individual from './components/Individual';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header type = "2"></Header>
-      <Member></Member>
-
-      <BrowserRouter>
-            {/* <Header/> */}
-            <Routes>
-                <Route path="/" element={<Main/>}/>
-                <Route path="/member" element={<Member/>}/>
-                <Route path="/project" element={<Project/>}/>
-            </Routes>
-        </BrowserRouter>
-    </div>
+        <Routes>
+          <Route path="/" element={<Main/>}/>
+          <Route path="/member" element={<Member/>}/>
+          <Route path="/indi/:name" element={<Individual/>}/>
+          <Route path="/project" element={<Project/>}/>
+        </Routes>
+    </BrowserRouter>
   );
 }
 

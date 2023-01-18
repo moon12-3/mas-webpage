@@ -1,25 +1,19 @@
 import styles from './Member.module.css';
 import React from 'react';
 import dummy from "../db/data.json";
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
-import Individual from './Individual';
+import { Link } from 'react-router-dom';
 
 function Member() {
     //dummy.grades
     return (
-        <BrowserRouter>
-            
-            <Routes>
-                <Route path="/" element={<Member1/>}/>
-                <Route path="/indi/:name" element={<Individual/>}/>
-            </Routes>
-            
+        <>
+            <Member1/>
             <div id = "panel" className={styles.fpanel2}>
                 <Footer2></Footer2>
                 <Footer2></Footer2>
             </div>
             
-        </BrowserRouter>
+        </>
     )
 }
 

@@ -3,24 +3,7 @@ import React from 'react';
 function Main() {
     return(
         <>
-    <body>
-        <header id = "nav">
-            <nav className ="nav">
-                <div className="logo"></div>
-                <div className="hr-div2"></div>
-                <ul className ="nav-list">
-                    <li className ="nav-item">ABOUT</li>
-                    <li className ="nav-item">MEMBER</li>
-                    <li className ="nav-item">PROJECT</li>
-                </ul>
-
-                <div className="hr-div"></div>
-                    <ul className ="nav-right">
-                        <li className ="nav-info">2021 - 2021</li>
-                        <li className ="nav-info">MAS</li>
-                    </ul>
-            </nav>
-        </header>
+        
         <div className="main">
             <div id="video-box" className="video-box">
                 <video id = "video" className ="video" muted autoplay>
@@ -87,7 +70,6 @@ function Main() {
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
-    </body>
     </>
     )
 }
