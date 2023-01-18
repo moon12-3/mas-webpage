@@ -27,7 +27,7 @@ function Member1() {
                 <div className={styles.section}>
                     <div className={styles.ftitle}>유병석</div>
                     <a href="#!" className={styles.fcontent1}>MAS 담당 교사</a><br/>
-                    <a href="#!" className={styles.fcontent2}>안녕하세요. 마스 1.5기의 부장을 맡고 있는 이현정입니다. 자기소개 뭐라고 함? 이 자리에 세 줄 정도 정리되면 딱 좋을 것 같은데...</a>
+                    <div href="#!" className={styles.fcontent2}>안녕하세요. 마스 1.5기의 부장을 맡고 있는 이현정입니다. 자기소개 뭐라고 함? 이 자리에 세 줄 정도 정리되면 딱 좋을 것 같은데...</div>
                 </div>             
             </div>
             <div className={styles.fpanel}>
@@ -37,7 +37,7 @@ function Member1() {
                             <Link to={`/indi/${person.name}`}>
                                 <div className={styles.ftitle}>{person.name}</div>
                                 <a href="#!" className={styles.fcontent1}>{person.role}</a><br/>
-                                <a href="#!" className={styles.fcontent2}>{person.intro}</a>
+                                <div href="#!" className={styles.fcontent2}>{person.intro}</div>
                             </Link>
                         </div>
                         ))
