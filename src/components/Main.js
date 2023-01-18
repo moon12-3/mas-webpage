@@ -41,7 +41,7 @@ function Main() {
                     </div>
                 </div>
                 <div className="sub-img">
-                    <img className = "img" src="img/MAS SUB PICTURE.png" alt=""></img>
+                    <img className = "img" src="../img/MAS SUB PICTURE.png" alt=""></img>
                 </div>
             </section>
 
