@@ -1,11 +1,12 @@
-import dummy from "../db/data.json";
-import { Link } from 'react-router-dom';
+// import dummy from "../db/data.json";
+// import { Link } from 'react-router-dom';
+import {Link} from "react-router-dom";
 
 function Header({type}) {
     const grade = "1ST";
     let t1 = "";
     let t2 = "";
-    if(type=="2") {
+    if(type==="2") {
        t1="MAS MEMBER";
        t2=`${grade} MEMBER`
     }
@@ -20,9 +21,10 @@ function Header({type}) {
                 <span className = "t2">{t2}</span>
                 </div>
               <ul className ="nav-list">
-                  <li className ="nav-item"><a href="/">ABOUT</a></li>
-                  <li className ="nav-item"><a href="/member/member">MEMBER</a></li>
-                  <li className ="nav-item"><a href="/project/project">PROJECT</a></li>
+                  {/* <li className ="nav-item"><Link to='/main'></Link></li> */}
+                  <li className ="nav-item"><Link to='/member'></Link></li>
+                  <li className ="nav-item"><Link to='/project'></Link></li>
+
               </ul>
   
               <div className="hr-div"></div>
