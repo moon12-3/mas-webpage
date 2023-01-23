@@ -1,8 +1,11 @@
 // import dummy from "../db/data.json";
 // import { Link } from 'react-router-dom';
 import {Link} from "react-router-dom";
+import React, {useState, useEffect} from 'react';
+import "./css/Header.css";
 
 function Header({type}) {
+    
     const grade = "1ST";
     let t1 = "";
     let t2 = "";
@@ -10,9 +13,19 @@ function Header({type}) {
        t1="MAS MEMBER";
        t2=`${grade} MEMBER`
     }
+
+    // 스크롤 감지
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const updateScroll = () => {
+        setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+    }
+    useEffect(()=>{
+        window.addEventListener('scroll', updateScroll);
+    });
+
     return (
-      <header id = "nav">
-          <nav className ="nav">
+      <header className={scrollPosition < 100 ? "original_header" : "change_header"}>
+          <nav className={scrollPosition < 100 ? "original_header" : "change_header"}>
               <div className="logo"></div>
               <div className="hr-div2"></div>
                 
