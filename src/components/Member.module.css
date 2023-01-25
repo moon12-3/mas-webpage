@@ -121,18 +121,18 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
-.text-arrow:hover {
+.textArrow:hover {
     cursor: pointer;
 }
 
-.img-arrow {
+.imgArrow {
     width: 58px;
     height: 52px;
     cursor: pointer;
 }
 
 
-.text-arrow {
+.textArrow {
     color: #575757;
     font-size: 20px;
     align-items: center;
@@ -165,7 +165,7 @@ button {
 
 /* 움직이는 모션 */
 .arrow {text-align: center; margin-top: 20px;}
-.img-arrow, .text-arrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}
+.imgArrow, .textArrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}
         
 @keyframes motion {
 	0% {margin-top: 0px;}

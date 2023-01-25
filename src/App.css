@@ -177,7 +177,7 @@ ul.nav-right > li:nth-child(2) {
     position: absolute;
     top: 10px;
     width: 78%;
-    height: 80%;
+    height: 100%;
     margin-top: 130px;
     z-index: 99;
     margin-left: 10%;
@@ -275,7 +275,7 @@ ul.nav-right > li:nth-child(2) {
 
 .f-panel {
     display: flex;
-    margin-top: 110vh;
+    /* margin-top: 110vh; */
     margin-bottom: 50px;
     position: absolute;
     width: 78%;

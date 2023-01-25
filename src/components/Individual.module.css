@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+* {
+    /* outline: solid 1px red; */
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+    margin : 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+    border-right: thin solid #ffffff;
+    /* overflow: hidden; */
+}
+
+html::-webkit-scrollbar { /* 스크롤바 안 보이게 */
+    display: none;
+}
+
+span {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row; /* 가로 나열 */
+}
+
+li {
+    float: left;
+    font-size : 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: bold;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+/* duration 걸리는 시간, 0% -> 100%로 갈 수록 색이 #585858 -> #fffff로 변함 */
+a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;} 
+@keyframes colorChange {     
+ 0% { color: #585858;; }
+ 100% { color: #ffffff; }
+}
+
+#nav {
+    height: 60px;
+    display: flex;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 100;
+    background-color: black;
+    border-bottom: 1px solid #ffffff;
+    transition: top 0.3s;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 4.68vh;
+    bottom: 0;
+    z-index: 99;
+    top: 0;
+}
+
+.logo {
+    width: 80px;
+    height: 58px;
+    background-color: #ffffff;
+    margin: 2% 1% 1% 1%;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 46px 5.9% 8px 0;
+    padding: 0;
+    border-right: 1px;
+    border-color: white;
+}
+
+.nav-item {
+    text-align: center;
+    height: 100%;
+    width: 11%;
+    float: left;
+    margin-right: 4%;
+    color: #585858;
+}
+
+/* 계속 선택자가 안 먹혀서 임폴턴트 먹였음! */
+/* 첫번째 선택자부터 2개씩 띄어서 선택 */
+/* ABOUT <MEMBER> Project */
+
+ul.nav-list > li:nth-child(2n+1) > a {
+    color: #585858;
+}
+
+/* 세로 구분선 */
+
+.hr-div2 {
+    display: flex;
+    width: 1px;
+    height: 1500px;
+    border-left: 1px solid #ffffff;
+    margin-left: -2px;
+}
+
+.hr-div {
+    display: flex;
+    width: 1px;
+    height: 1500px;
+    border-left: 1px solid #ffffff;
+    margin-right: -16px;
+}
+
+.nav-right {
+    display: block;
+    margin: 30px 1% 1% -11px;
+}
+
+.nav-info {
+    width: 100%;
+    color: #585858;
+}
+
+/* 멤버 페이지일 때 >>> member 텍스트 흰색*/
+
+ul.nav-right > li:nth-child(2) {
+    color: #ffffff;
+}
+
+.t {
+    position: absolute;
+    display: block;
+    width: 20%;
+    left: 14%;
+    top: 15px;
+}
+
+.t1 {
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
+    color: #585858;
+    text-align: start;
+    margin-left: 4px;
+}
+
+.t2 {
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    text-align: start;
+}
+
+.f-panel {
+    font-family: 'Noto Sans KR', sans-serif;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 204px;
+    position: absolute;
+    width: 80%;
+    height: 95.32vh;
+    z-index: 99;
+    margin-left: 16%;
+}
+
+.f-panel2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 800px;
+    position: absolute;
+    width: 80%;
+    height: 95.32vh;
+    z-index: 99;
+    margin-left: 14%;
+}
+
+.p-img {
+    width:15.62vw;
+    height:15.62vh;
+    margin-bottom:2%;
+    background-color: white;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 80px;
+}
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: flex-start;
+}
+
+.section {
+    width: 250px;
+    display: block;
+}
+
+.section:hover {
+    cursor: pointer;
+}
+
+.f-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1.26vh;
+}
+
+.f-title2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1.26vh;
+}
+
+.f-content1 {
+    color: #585858;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.f-content2 {
+    font-size: 14px;
+}
+
+.panel {
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    width: 78%;
+    height: 80%;
+    margin-top: 130px;
+    z-index: 99;
+    margin-left: 10%;
+}
+
+.arrow {
+    z-index: 99;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    position: absolute;
+    top: 549px;
+    left: 13%;
+    align-items: center;
+}
+
+.text-arrow:hover {
+    cursor: pointer;
+}
+
+.img-arrow {
+    width: 58px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.text-arrow {
+    color: #575757;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.grade {
+    position:fixed;
+    top : 18%;
+    right:4%;
+    display : flex;
+}
+
+.grade-list {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.project {
+    position:relative;
+    width:80%;
+    height:100vh;
+}
+
+/* 움직이는 모션 */
+.arrow {text-align: center; margin-top: 20px;}
+.img-arrow, .text-arrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}
+        
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+
+.personName {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: fixed;
+    width: 26%;
+    top: 20%;
+    left: 14%;
+    display: block;
+    text-align: start;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.personal {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: fixed;
+    width: 34%;
+    top: 20%;
+    left: 51%;
+    display: block;
+    align-items: flex-start;
+}
+
+.hashtag {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.intro {
+    width: 104%;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: start;
+}
+
+.license {
+    position: fixed;
+    width: 34%;
+    top: 36%;
+    left: 51%;
+    display: block;
+}
+
+.plicense {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.Pflagship {
+    position: fixed;
+    width: 34%;
+    top: 53%;
+    left: 51%;
+    display: block;
+}
+
+.pro {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.tg  {
+    border-collapse:collapse;border-spacing:0;
+}
+
+.tg td { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:10px;
+    font-weight: 200;
+    overflow:hidden;
+    padding: 2px 40px 5px 0;
+    word-break:normal;
+}
+
+.tg th {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:10px;
+    font-weight: 200;
+    overflow:hidden;
+    padding: 2px 40px 5px 0;
+    word-break:normal;
+}
+
+.tg .tg0lax {text-align:left;
+    vertical-align:top
+}
+
+.skill {
+    position: fixed;
+    width: 34%;
+    top: 69%;
+    left: 51%;
+    display: block;
+}
+
+.sk {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.fWrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .singleChart {
+    width: 33%;
+    justify-content: space-around ;
+  }
+  
+  .circularChart {
+    display: block;
+    margin: 10px 0;
+    max-width: 82%;
+    max-height: 250px;
+  }
+  
+  .circleBg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+
+  .skillKind1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 21px;
+    /* left: 51.8%; */
+    position: fixed;
+  }
+
+  .skill-kind2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 59%;
+    position: fixed;
+  }
+
+  .skill-kind3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 65.7%;
+    position: fixed;
+  }
+
+  .skill-kind4 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 72.6%;
+    position: fixed;
+  }
+
+  .skill-kind5 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 79.4%;
+    position: fixed;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  
+  .circularChart.orange .circle {
+    stroke: #FF0000;
+  }
+  
+  .circularChart.green .circle {
+    stroke: #FF0000;
+  }
+  
+  .circularChart.blue .circle {
+    stroke: #FF0000;
+  }
+  
+  .percentage {
+    fill: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+
+.moto {
+    position: absolute;
+    width: 19%;
+    margin-top: 28%;
+    left: 10.4%;
+}
+
+.pMoto {
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}

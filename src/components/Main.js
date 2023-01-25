@@ -1,15 +1,13 @@
 import React from 'react';
+import { FullPage, Slide } from 'react-full-page';
 
 function Main() {
     return(
         <>
         
-        <div className="main">
-            <div id="video-box" className="video-box">
-                <video id = "video" className ="video" muted autoplay>
-                    <source src="video/main composition_10초.mp4" type="video/mp4"></source>
-                </video>
-            </div>
+        <FullPage controls>
+           
+            <Slide>
             <section id = "panel" class="panel container">
                 <div className="main-text">
                         <li className ="name-text">My Ability</li>
@@ -31,7 +29,8 @@ function Main() {
                     </div>
                 </div>
             </section>
-
+            </Slide>
+            <Slide>
             <section id = "panel" className="panel2 container">
                 <div className="sub-main-text">
                     <p>나누며</p>
@@ -44,8 +43,8 @@ function Main() {
                     <img className = "img" src="../img/MAS SUB PICTURE.png" alt=""></img>
                 </div>
             </section>
-
-
+            </Slide>
+            <Slide>
             <section id = "panel" className="f-panel container">
                 <div className="footer">
                     <div className="section">
@@ -67,7 +66,8 @@ function Main() {
                     </div>
                 </div>
             </section>
-        </div>
+            </Slide>
+        </FullPage>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
     </>

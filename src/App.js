@@ -4,9 +4,13 @@ import Header from './components/Header';
 import Member from './components/Member';
 import Project from './components/Project';
 import Individual from './components/Individual';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Routes, Link, useNavigate} from 'react-router-dom';
 
 function App() {
+  
+
   return (
     <BrowserRouter>
       <Header type = "2"></Header>
