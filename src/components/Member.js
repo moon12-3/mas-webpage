@@ -2,7 +2,7 @@ import styles from './Member.module.css';
 import React from 'react';
 import dummy from "../db/data.json";
 import { Link } from 'react-router-dom';
-import { FullPage, Slide } from 'react-full-page';
+// import { FullPage, Slide } from 'react-full-page';
 
 function Member() {
     //dummy.grades
