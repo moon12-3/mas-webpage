@@ -346,6 +346,10 @@ ul.nav-right > li:nth-child(2) {
     flex-direction: column;
 }
 
+.grade-list li:hover {
+    cursor: pointer;
+}
+
 @media (max-width : 1298.40px) {
     .the-text {
         margin-top: 520px;
