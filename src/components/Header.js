@@ -6,14 +6,10 @@ import "./css/Header.css";
 
 function Header({type}) {
     
-    const grade = "1ST";
+    // const grade = "";
     let t1 = "";
     let t2 = "";
-    if(type==="2") {
-       t1="MAS MEMBER";
-       t2=`${grade} MEMBER`
-    }
-
+    
     // 스크롤 감지
     const [scrollPosition, setScrollPosition] = useState(0);
     const updateScroll = () => {
