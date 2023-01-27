@@ -42,7 +42,7 @@ section {
 
 video {
     width: 100%;
-    height: 99.5vh;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -89,7 +89,7 @@ header {
     left: 0;
     right: 0;
     align-items: center;
-    z-index: 100;
+    z-index: 96;
     background-color: black;
     border-bottom: 1px solid #ffffff;
     transition: top 0.5s;
@@ -102,7 +102,7 @@ header {
     height: 72px;
     position: fixed;
     bottom: 0;
-    z-index: 99;
+    z-index: 96;
     top: 0;
 }
 
@@ -173,6 +173,13 @@ ul.nav-right > li:nth-child(2) {
     overflow: hidden;
 }
 
+.video {
+    z-index: 99;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
 .panel {
     margin: 0 auto;
     position: absolute;
@@ -180,7 +187,7 @@ ul.nav-right > li:nth-child(2) {
     width: 78%;
     height: 100%;
     margin-top: 130px;
-    z-index: 99;
+    z-index: 98;
     margin-left: 10%;
 }
 
@@ -232,7 +239,7 @@ ul.nav-right > li:nth-child(2) {
     position: absolute;
     width: 78%;
     height: 80%;
-    z-index: 99;
+    z-index: 98;
     margin-left: 10%;
 }
 
@@ -281,7 +288,7 @@ ul.nav-right > li:nth-child(2) {
     position: absolute;
     width: 78%;
     height: 120px;
-    z-index: 99;
+    z-index: 98;
     margin-left: 10%;
 }
 
@@ -354,3 +361,18 @@ ul.nav-right > li:nth-child(2) {
         font-size: 12px;
     }
 }
+
+.fade-out {
+    opacity: 0;
+    animation: fadeOut ease-in-out 1s;
+}
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }

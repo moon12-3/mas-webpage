@@ -5,7 +5,7 @@ function Main() {
     return(
         <>
         
-        <FullPage controls>
+        <FullPage>
            
             <Slide>
             <section id = "panel" class="panel container">
