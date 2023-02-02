@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Member from './components/Member';
 import Project from './components/Project';
 import Individual from './components/Individual';
+import IndividualProject from './components/IndividualProject';
 import { useCookies } from 'react-cookie';
 import moment from 'moment';
 
@@ -18,7 +19,7 @@ function App() {
 
   const hideVideo = () => {
     const decade = moment();
-    decade.add(3650, 'd');
+    decade.add(10, 'm');
     setCookie(COOKIE_KEY, 'true', {path:'/', expires: decade.toDate()});
   }
   
@@ -41,10 +42,11 @@ function App() {
       }
       <Header type = "2"></Header>
         <Routes>
-          <Route path="/" element={<Main/>}/>
-          <Route path="/member" element={<Member/>}/>
-          <Route path="/indi/:name" element={<Individual/>}/>
-          <Route path="/project" element={<Project/>}/>
+          <Route path="/" element={<Main />} />
+          <Route path="/member" element={<Member />} />
+          <Route path="/indi/:name" element={<Individual />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="IndividualProject" element={<IndividualProject />} />
         </Routes>
     </BrowserRouter>
   );
