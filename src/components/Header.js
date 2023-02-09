@@ -3,7 +3,7 @@
 import {Link} from "react-router-dom";
 // import React, {useState, useEffect} from 'react';
 
-function Header({type}) {
+function Header(props) {
     
     // const grade = "";
     let t1 = "";
@@ -36,7 +36,7 @@ function Header({type}) {
                 
               <div className="t">
                 <span className = "t1">{t1}</span>
-                <span className = "t2">{t2}</span>
+                <span className = "t2">{props.name}</span>
                 </div>
               <ul className ="nav-list">
                   <li className ="nav-item"><Link to='/'>ABOUT</Link></li>

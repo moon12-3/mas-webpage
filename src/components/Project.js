@@ -24,7 +24,7 @@ function Footer2() {
     return(
         <div className={styles.footer1}>
             <div className={styles.section}>
-                <Link to={'/individualproject'}>
+            <Link to={'/individualproject'}>
                     <div className={styles.fImg}></div>
                     <div className={styles.ftitle2}>프로젝트명</div>
                     <a href="#!" className={styles.fcontent1}>2022.07.25~2022.07.30</a><br/>
@@ -32,16 +32,20 @@ function Footer2() {
                 </Link>
             </div>
             <div className={styles.section}>
+            <Link to={'/individualproject'}>
                 <div className={styles.fImg}></div>
                 <div className={styles.ftitle2}>프로젝트명</div>
                 <a href="#!" className={styles.fcontent1}>2022.07.25~2022.07.30</a><br/>
                 <a href="#!" className={styles.fcontent2}>소개를 쓰십시오</a>
+                </Link>
             </div>
             <div className={styles.section}>
+            <Link to={'/individualproject'}>
                 <div className={styles.fImg}></div>
                 <div className={styles.ftitle2}>프로젝트명</div>
                 <a href="#!" className={styles.fcontent1}>2022.07.25~2022.07.30</a><br/>
                 <a href="#!" className={styles.fcontent2}>소개를 쓰십시오</a>
+                </Link>
             </div>       
 
             <div className="grade">
