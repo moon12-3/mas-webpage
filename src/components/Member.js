@@ -23,6 +23,7 @@ function Member1() {
     let list = dummy.people.filter(people => people.id === grade);
 
     return(
+        <>
         <div className={styles.panel2}>
             <div className={styles.fpanel3}>
                 <div className={styles.section}>
@@ -61,6 +62,10 @@ function Member1() {
                     </ul>
             </div>
         </div>
+        {grade} MEMBERS
+        PROJECT
+        We're Martians.
+        </>
     )
 }
 
