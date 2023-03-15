@@ -62,9 +62,9 @@ function Member1() {
                     </ul>
             </div>
         </div>
-        {grade} MEMBERS
+        {/* {grade} MEMBERS
         PROJECT
-        We're Martians.
+        We're Martians. */}
         </>
     )
 }
