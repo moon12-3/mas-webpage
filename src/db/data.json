@@ -271,11 +271,7 @@
                     "skills" : [
                         {
                             "name" : "JAVA",
-                            "percent" : "95"
-                        },
-                        {
-                            "name" : "KOTLIN",
-                            "percent" : "85"
+                            "percent" : "90"
                         },
                         {
                             "name" : "POSTGRESQL",
@@ -283,7 +279,11 @@
                         },
                         {
                             "name" : "SPRING",
-                            "percent" : "95"
+                            "percent" : "90"
+                        },
+                        {
+                            "name" : "KOTLIN",
+                            "percent" : "85"
                         }
                     ]
                 },
@@ -294,12 +294,20 @@
                     "role":"12기 WEBSOLUTION",
                     "tag":"#뉴미디어웹솔루션과 #MAS 1.5기 부원  #최윤영",
                     "licenses":[
-                        "no update"
+                        "ITQ 한글, 피피티, 엑셀",
+                        "MOS 피피티, 엑셀",
+                        "COS PRO 2급 C언어",
+                        "운전면허증 ㅋ"
                     ],
                     "projects":[
-                        "no update"
+                        "RabbitChu",
+                        "미리미",
+                        "RE:COMM",
+                        "학생회 잡지",
+                        "앱잼 게임 분야 장려상",
+                        "관악구 별빛신사리 상권 홍보 우수상"
                     ],
-                    "moto" : "YOUR MOTO",
+                    "moto" : "더 넓고, 더 깊게",
                     "skills" : [
                         {
                             "name" : "REACT",
@@ -366,20 +374,16 @@
                     "moto" : "YOUR MOTO",
                     "skills" : [
                         {
-                            "name" : "C#",
-                            "percent" : "85"
-                        },
-                        {
                             "name" : "JAVA",
-                            "percent" : "85"
+                            "percent" : "80"
                         },
                         {
-                            "name" : "ANDROID",
-                            "percent" : "85"
+                            "name" : "NODE.JS",
+                            "percent" : "60"
                         },
                         {
-                            "name" : "ORACLE",
-                            "percent" : "85"
+                            "name" : "REACT",
+                            "percent" : "70"
                         }
                     ]
                 },
