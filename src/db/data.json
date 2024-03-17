@@ -25,6 +25,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "JAVA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "KOTLIN",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "C#",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ORACLE",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -38,6 +56,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "JAVA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "KOTLIN",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "C#",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ORACLE",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -51,6 +87,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "JAVA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "KOTLIN",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "C#",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ORACLE",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -64,6 +118,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "JAVA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "KOTLIN",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "C#",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ORACLE",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -77,6 +149,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -90,6 +180,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -97,12 +205,30 @@
                     "name":"이현정",
                     "intro":"MAS 1.5기 마스 부장",
                     "role":"12기 DESIGN",
-                    "tag":"#뉴미디어디자인과 #MAS 1.5기 부원  #이현정",
+                    "tag":"#뉴미디어디자인과 #MAS 1.5기 부장  #이현정",
                     "licenses":[
                         "no update"
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -111,12 +237,30 @@
                     "name":"문채영",
                     "intro":"MAS 1.5기 부부장입니다 다들 화이팅~",
                     "role":"12기 SOFTWARE",
-                    "tag":"#뉴미디어소프트웨어과 #MAS 1.5기 부원  #문채영",
+                    "tag":"#뉴미디어소프트웨어과 #MAS 1.5기 부부장  #문채영",
                     "licenses":[
                         "no update"
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills" : [
+                        {
+                            "name" : "JAVA",
+                            "percent" : "95"
+                        },
+                        {
+                            "name" : "KOTLIN",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "POSTGRESQL",
+                            "percent" : "90"
+                        },
+                        {
+                            "name" : "SPRING",
+                            "percent" : "95"
+                        }
                     ]
                 },
                 {
@@ -130,6 +274,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills" : [
+                        {
+                            "name" : "REACT",
+                            "percent" : "97"
+                        },
+                        {
+                            "name" : "JAVA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ANDROID",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ORACLE",
+                            "percent" : "90"
+                        }
                     ]
                 },
                 {
@@ -143,6 +305,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -156,6 +336,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills" : [
+                        {
+                            "name" : "C#",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "JAVA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ANDROID",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ORACLE",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -169,6 +367,24 @@
                     ],
                     "projects":[
                         "no update"
+                    ],
+                    "skills" : [
+                        {
+                            "name" : "REACT",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "JAVA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ANDROID",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ORACLE",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -187,6 +403,24 @@
                     "projects":[
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -205,6 +439,24 @@
                     "projects":[
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -223,6 +475,24 @@
                     "projects":[
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -241,6 +511,24 @@
                     "projects":[
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -259,6 +547,24 @@
                     "projects":[
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 },
                 {
@@ -277,6 +583,24 @@
                     "projects":[
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
+                    ],
+                    "skills": [
+                        {
+                            "name" : "PHOTOSHOP",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "FIGMA",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "COLOR",
+                            "percent" : "85"
+                        },
+                        {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        }
                     ]
                 }
     ]

@@ -38,7 +38,8 @@ function Individual() {
           <div className={styles.skill}>
             <span className={styles.sk}>SKILLS</span>
             <div className={styles.fWrapper}>
-              <div className={styles.singleChart}>
+            {list.skills.map((item, index) => (
+                <div className={styles.singleChart}>
                 <svg
                   viewBox="0 0 36 36"
                   className={`${styles.circularChart} ${styles.orange}`}
@@ -51,117 +52,18 @@ function Individual() {
                   />
                   <path
                     className={styles.circle}
-                    stroke-dasharray="30, 100"
+                    stroke-dasharray={item.percent+", 100"}
                     d="M18 2.0845
                                     a 15.9155 15.9155 0 0 1 0 31.831
                                     a 15.9155 15.9155 0 0 1 0 -31.831"
                   />
                   <text x="18" y="20.35" className={styles.percentage}>
-                    30%
+                    {item.percent}%
                   </text>
                 </svg>
-                <text className={styles.skillKind1}>PHOTOSHOP</text>
+                <text className={styles.skillKind1}>{item.name}</text>
               </div>
-
-              <div className={styles.singleChart}>
-                <svg
-                  viewBox="0 0 36 36"
-                  className={`${styles.circularChart} ${styles.orange}`}
-                >
-                  <path
-                    className={styles.circleBg}
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <path
-                    className={styles.circle}
-                    stroke-dasharray="30, 100"
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <text x="18" y="20.35" className={styles.percentage}>
-                    30%
-                  </text>
-                </svg>
-                <text className={styles.skillKind1}>PHOTOSHOP</text>
-              </div>
-
-              <div className={styles.singleChart}>
-                <svg
-                  viewBox="0 0 36 36"
-                  className={`${styles.circularChart} ${styles.orange}`}
-                >
-                  <path
-                    className={styles.circleBg}
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <path
-                    className={styles.circle}
-                    stroke-dasharray="30, 100"
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <text x="18" y="20.35" className={styles.percentage}>
-                    30%
-                  </text>
-                </svg>
-                <text className={styles.skillKind1}>PHOTOSHOP</text>
-              </div>
-
-              <div className={styles.singleChart}>
-                <svg
-                  viewBox="0 0 36 36"
-                  className={`${styles.circularChart} ${styles.orange}`}
-                >
-                  <path
-                    className={styles.circleBg}
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <path
-                    className={styles.circle}
-                    stroke-dasharray="30, 100"
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <text x="18" y="20.35" className={styles.percentage}>
-                    30%
-                  </text>
-                </svg>
-                <text className={styles.skillKind1}>PHOTOSHOP</text>
-              </div>
-
-              <div className={styles.singleChart}>
-                <svg
-                  viewBox="0 0 36 36"
-                  className={`${styles.circularChart} ${styles.orange}`}
-                >
-                  <path
-                    className={styles.circleBg}
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <path
-                    className={styles.circle}
-                    stroke-dasharray="60, 100"
-                    d="M18 2.0845
-                                    a 15.9155 15.9155 0 0 1 0 31.831
-                                    a 15.9155 15.9155 0 0 1 0 -31.831"
-                  />
-                  <text x="18" y="20.35" className={styles.percentage}>
-                    60%
-                  </text>
-                </svg>
-                <text className={styles.skillKind1}>PHOTOSHOP</text>
-              </div>
+              ))}
             </div>
           </div>
         </div>
@@ -169,9 +71,9 @@ function Individual() {
 
       <div className={styles.arrow}>
         <img className={styles.imgArrow} src="../img/PROJEcT VIEW.png" alt="" />
-        <span className={styles.textArrow} id={styles.arrow}>
+        {/* <span className={styles.textArrow} id={styles.arrow}>
           View more 1ST PROJECT
-        </span>
+        </span> */}
       </div>
 
       <div className={styles.moto}>
