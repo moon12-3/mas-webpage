@@ -28,8 +28,8 @@ body::-webkit-scrollbar {
 /* /////////////////////////////////////////// */
 
 .container {
-    margin: 0 auto;
-    width: 100%;
+    margin: 180px auto;
+    width: 1200px;
 }
 
 .project_info {

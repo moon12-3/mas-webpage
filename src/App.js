@@ -50,8 +50,8 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/member" element={<Member />} />
           <Route path="/indi/:name" element={<Individual />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="IndividualProject" element={<IndividualProject />} />
+          <Route path="/project/" element={<Project />} />
+          <Route path="/indi-project/:name" element={<IndividualProject />} />
         </Routes>
       )}
     </BrowserRouter>

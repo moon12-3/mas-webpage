@@ -26,6 +26,10 @@ body::-webkit-scrollbar {
     display: block;
 }
 
+.section span {
+    text-align: start;
+}
+
 .section:hover {
     cursor: pointer;
 }
@@ -80,16 +84,14 @@ body::-webkit-scrollbar {
 }
 
 .fpanel {
-    font-family: 'Noto Sans KR', sans-serif;
-    justify-content: space-evenly;
     display: flex;
+    justify-content: flex-start;
     /* flex-direction: column; */
     position: relative;
-    width: 43.6vw;
+    width: 100%;
     gap: 6vw;
     height: 75vh;
     z-index: 98;
-    
     flex-wrap: wrap;
 }
 
