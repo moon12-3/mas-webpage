@@ -297,6 +297,9 @@ ul.nav-right > li:nth-child(2) {
 
 .tg  {
     border-collapse:collapse;border-spacing:0;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .tg td { 
@@ -318,7 +321,14 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .tg .tg0lax {text-align:left;
-    vertical-align:top
+    vertical-align:top;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:10px;
+    font-weight: 200;
+    overflow:hidden;
+    padding: 2px 40px 5px 0;
+    width: 100%;
+    word-break:normal;
 }
 
 .skill {

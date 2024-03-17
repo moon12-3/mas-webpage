@@ -18,7 +18,7 @@ function Member() {
 }
 
 function Member1() {
-  const [grade, setGrade] = React.useState("1");
+  const [grade, setGrade] = React.useState("3");
   let list = dummy.people.filter((people) => people.id === grade);
 
   return (
@@ -32,8 +32,7 @@ function Member1() {
             </a>
             <br />
             <div href="#!" className={styles.fcontent2}>
-              안녕하세요. 마스 1.5기의 부장을 맡고 있는 이현정입니다. 자기소개
-              뭐라고 함? 이 자리에 세 줄 정도 정리되면 딱 좋을 것 같은데...
+              -
             </div>
           </div>
         </div>
@@ -62,7 +61,7 @@ function Member1() {
                     setGrade(grade.id);
                   }}
                 >
-                  <p>2021 {grade.grade}</p>
+                  <p>2024 {grade.grade}</p>
                 </button>
               </li>
             ))}

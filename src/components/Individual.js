@@ -12,69 +12,28 @@ function Individual() {
         <span className={styles.personName}>{name}</span>
         <div className={styles.personal}>
           <span className={styles.hashtag}>
-            #뉴미디어웹솔루션과 #MAS 2기 부원 #유희주
+            {list.tag}
           </span>
           <span className={styles.intro}>{list.intro}</span>
           <div className={styles.license}>
             <span className={styles.plicense}>LICENSE</span>
-            <table className={styles.tg}>
-              <thead>
-                <tr>
-                  <th className={styles.tg0lax}>
-                    ACA Adobe Photoshop CC 2015{" "}
-                  </th>
-                  <th className={styles.tg0lax}>
-                    ACA Adobe Illustrator CC 2015
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className={styles.tg0lax}>ITQ OA MASTER</td>
-                  <td className={styles.tg0lax}>GTQ PS 1급</td>
-                </tr>
-                <tr>
-                  <td className={styles.tg0lax}>GTQ AI 1급</td>
-                  <td className={styles.tg0lax}></td>
-                </tr>
-                <tr>
-                  <td className={styles.tg0lax}></td>
-                  <td className={styles.tg0lax}></td>
-                </tr>
-                <tr>
-                  <td className={styles.tg0lax}></td>
-                  <td className={styles.tg0lax}></td>
-                </tr>
-              </tbody>
-            </table>
+            <div className={styles.tg}>
+              {list.licenses.map((item, index) => (
+                <div key={index} className={styles.tg0lax}>
+                  {item}
+                </div>
+              ))}
+            </div>
           </div>
           <div className={styles.Pflagship}>
             <span className={styles.pro}>FLAGSHIP PROJECT</span>
-            <table className={styles.tg}>
-              <thead>
-                <tr>
-                  <th className={styles.tg0lax}>
-                    ACA Adobe Photoshop CC 2015{" "}
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className={styles.tg0lax}>
-                    ACA Adobe Illustrator CC 2015 두 개 정도만 적읍시다
-                  </td>
-                </tr>
-                <tr>
-                  <td className={styles.tg0lax}></td>
-                </tr>
-                <tr>
-                  <td className={styles.tg0lax}></td>
-                </tr>
-                <tr>
-                  <td className={styles.tg0lax}></td>
-                </tr>
-              </tbody>
-            </table>
+            <div className={styles.tg}>
+            {list.projects.map((item, index) => (
+                <div key={index} className={styles.tg0lax}>
+                  {item}
+                </div>
+              ))}
+            </div>
           </div>
           <div className={styles.skill}>
             <span className={styles.sk}>SKILLS</span>
