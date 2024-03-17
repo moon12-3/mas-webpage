@@ -65,20 +65,34 @@ function Main() {
             <div className="footer">
               <div className="section">
                 <div className="f-title">MAS WEBSITE</div>
-                <p className="f-content">About</p>
-                <p className="f-content">Member</p>
-                <p className="f-content">Project</p>
+                <p className="f-content">
+                  <a href="#!" style={{ color: "#666" }}>
+                    About
+                  </a>
+                </p>
+                <p className="f-content">
+                  <a href="/member">Member</a>
+                </p>
+                <p className="f-content">
+                  <a href="/project">Project</a>
+                </p>
               </div>
               <div className="section">
-                <div className="f-title">MAS WEBPAGE</div>
-                <p className="f-content">주소</p>
-                <p className="f-content">문의</p>
-                <p className="f-content">비울지 말지</p>
+                <div className="f-title">MAS INFORMATION</div>
+                <p className="f-content">미림마이스터고</p>
+                <p className="f-content">문의: 현재 부장/부부장 연락망 기재</p>
+                <p className="f-content">We Are Martian</p>
               </div>
               <div className="section">
                 <div className="f-title">Official Channels</div>
-                <p className="f-content">Facebook</p>
-                <p className="f-content">Instagram</p>
+                <p className="f-content">
+                  <a href="https://www.facebook.com/profile.php?id=100080336959216&locale=ko_KR">
+                    Facebook
+                  </a>
+                </p>
+                <p className="f-content">
+                  <a href="https://www.instagram.com/mas_mirim/">Instagram</a>
+                </p>
               </div>
             </div>
           </section>

@@ -22,8 +22,12 @@ function IndividualProject() {
         </div>
       </div>
       <div className={styles.project_img}>
-        <div className={styles.a}></div>
-        <div className={styles.a}></div>
+        <div className={styles.a}>
+          <img src={list.img} alt="" />
+        </div>
+        <div className={styles.a}>
+          <img src={list.img} alt="" />
+        </div>
       </div>
     </div>
   );
