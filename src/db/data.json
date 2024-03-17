@@ -26,6 +26,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "JAVA",
@@ -57,6 +58,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "JAVA",
@@ -88,6 +90,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "JAVA",
@@ -119,6 +122,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "JAVA",
@@ -150,6 +154,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -181,6 +186,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -203,31 +209,40 @@
                 {
                     "id":"2", 
                     "name":"이현정",
-                    "intro":"MAS 1.5기 마스 부장",
+                    "intro":"안녕하세요. 마스 1.5기의 부장을 맡고 있는 이현정입니다. 일할 때는 확실하게, 관계에는 따뜻한 자세로 임하겠습니다.",
                     "role":"12기 DESIGN",
                     "tag":"#뉴미디어디자인과 #MAS 1.5기 부장  #이현정",
                     "licenses":[
-                        "no update"
+                        "컬러리스트 산업기사",
+                        "ITQ 정보 기술자격 OA 마스터(한글, 엑셀, 파워포인트)",
+                        "GTQ 일러스트 1급(Illustrator)",
+                        "GTQ 포토샵 1급 (PhotoShop)",
+                        "ACA Adobe Certified Associate 포토샵",
+                        "ACA Adobe Certified Associate 일러스트레이터"
                     ],
                     "projects":[
-                        "no update"
+                        "[대상] 관악 별빛신사리 상권 홍보 공모전 웹사이트 부문",
+                        "[우수상] 관악 별빛신사리 상권 홍보 공모전 브랜딩 부문",
+                        "[최우수상] 2022 Smarteen App Challenge 생활정보 개발 부문",
+                        "2022 관악구 모범학생 표창"
                     ],
+                    "moto" : "사랑하라, 한번도 상처받지 않은 것처럼",
                     "skills": [
                         {
+                            "name" : "ILLUSTRATOR",
+                            "percent" : "85"
+                        },
+                        {
                             "name" : "PHOTOSHOP",
+                            "percent" : "75"
+                        },
+                        {
+                            "name" : "AFTER EFFECTS",
                             "percent" : "85"
                         },
                         {
                             "name" : "FIGMA",
-                            "percent" : "85"
-                        },
-                        {
-                            "name" : "COLOR",
-                            "percent" : "85"
-                        },
-                        {
-                            "name" : "ILLUSTRATOR",
-                            "percent" : "85"
+                            "percent" : "70"
                         }
                     ]
                 },
@@ -235,15 +250,24 @@
 
                     "id":"2", 
                     "name":"문채영",
-                    "intro":"MAS 1.5기 부부장입니다 다들 화이팅~",
+                    "intro":"MAS 1.5기 부부장입니다. 다들 화이팅~",
                     "role":"12기 SOFTWARE",
                     "tag":"#뉴미디어소프트웨어과 #MAS 1.5기 부부장  #문채영",
                     "licenses":[
-                        "no update"
+                        "정보 처리 기능사",
+                        "MOS excel core, ppt",
+                        "ITQ master(ppt, excel, 한글)",
+                        "COS PRO C, JAVA",
+                        "워드 프로세서 1급"
                     ],
                     "projects":[
-                        "no update"
+                        "[대상] 관악 별빛신사리 상권 홍보 공모전 웹사이트 부문",
+                        "[우수상] 미림 교내 소프트웨어 챌린지 게임 부문",
+                        "[우수상] 하이톤 게임부문 우수상",
+                        "[우수상] 2022 Smarteen App Challenge 게임 아이디어 부문",
+                        "MOS 국내 본선 3등"
                     ],
+                    "moto" : "If you worry about how to write code, you're not using powerful enough tools",
                     "skills" : [
                         {
                             "name" : "JAVA",
@@ -275,6 +299,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills" : [
                         {
                             "name" : "REACT",
@@ -306,6 +331,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -337,6 +363,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills" : [
                         {
                             "name" : "C#",
@@ -368,6 +395,7 @@
                     "projects":[
                         "no update"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills" : [
                         {
                             "name" : "REACT",
@@ -404,6 +432,7 @@
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -440,6 +469,7 @@
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -476,6 +506,7 @@
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -512,6 +543,7 @@
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -548,6 +580,7 @@
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",
@@ -569,7 +602,7 @@
                 },
                 {
                     "id":"3", 
-                    "name":"나소정",
+                    "name":"유희주",
                     "intro":"안녕하세요 마스 2기 부원인 유희주입니다. 열정을 가지며 활동에 임하고 계속 성장해 나아가겠습니다!",
                     "role":"13기 SOFTWARE",
                     "tag":"#뉴미디어웹솔루션과 #MAS 2기 부원  #유희주",
@@ -584,6 +617,7 @@
                         "주력 프로젝트를 적으세여",
                         "주력 프로젝트를 적으세여"
                     ],
+                    "moto" : "YOUR MOTO",
                     "skills": [
                         {
                             "name" : "PHOTOSHOP",

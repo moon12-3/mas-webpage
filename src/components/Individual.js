@@ -77,7 +77,7 @@ function Individual() {
       </div>
 
       <div className={styles.moto}>
-        <span className={styles.pMoto}>YOUR MOTO</span>
+        <span className={styles.pMoto}>{list.moto}</span>
       </div>
     </div>
   );

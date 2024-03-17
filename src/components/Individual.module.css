@@ -441,7 +441,8 @@ ul.nav-right > li:nth-child(2) {
 
 .moto {
     position: absolute;
-    width: 19%;
+    width: 35%;
+    text-align: left;
     margin-top: 28%;
     left: 10.4%;
 }
