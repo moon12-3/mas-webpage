@@ -10,7 +10,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
-import video from "./video/main composition_10초.mp4";
+import video from "./video/main composition_10sec.mp4";
 
 function App() {
   const [showVideo, setShowVideo] = useState(true);
