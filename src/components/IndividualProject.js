@@ -22,12 +22,11 @@ function IndividualProject() {
         </div>
       </div>
       <div className={styles.project_img}>
-        <div className={styles.a}>
-          <img src={list.img} alt="" />
-        </div>
-        <div className={styles.a}>
-          <img src={list.img} alt="" />
-        </div>
+        {list.img.map((image, index) => (
+          <div className={styles.a} key={index}>
+            <img src={`${process.env.PUBLIC_URL}/assets/${image}`} alt="" />
+          </div>
+        ))}
       </div>
     </div>
   );

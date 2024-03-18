@@ -19,7 +19,11 @@ function ProjectContainer() {
           {list.map((project, index) => (
             <div key={index} className={styles.section}>
               <Link to={`/indi-project/${project.name}`}>
-                <img className={styles.fImg} src={project.img} alt="" />
+                <img
+                  className={styles.fImg}
+                  src={`${process.env.PUBLIC_URL}/assets/${project.img[0]}`}
+                  alt=""
+                />
                 <div className={styles.ftitle2}>{project.name}</div>
                 <span className={styles.fcontent1}>
                   {project.startDate} ~ {project.endDate}
